@@ -1,0 +1,10 @@
+{
+    "name": "mkveksas/hello-composer",
+    "description": "Testing a simple composer package",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {"mkveksas\\HelloWorld\\": "src/"}
+    }
+}
